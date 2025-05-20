@@ -4,19 +4,12 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Text, View } from 'react-native';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import FontAwesome5 from '@react-native-vector-icons/fontawesome5';
+import CalendarView from './CalendarView';
 
 function HomeView() {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#FFFFFF'}}>
       <Text>Home</Text>
-    </View>
-  );
-}
-
-function CalendarView() {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#FFFFFF'}}>
-      <Text>Calendar</Text>
     </View>
   );
 }
