@@ -4,14 +4,9 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Text, View } from 'react-native';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import FontAwesome5 from '@react-native-vector-icons/fontawesome5';
-
-function CalendarView() {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#FFFFFF'}}>
-      <Text>캘린더</Text>
-    </View>
-  );
-}
+import 'react-native-gesture-handler';
+import 'react-native-reanimated';
+import CalendarView from './CalendarView';
 
 function DataView() {
   return (
