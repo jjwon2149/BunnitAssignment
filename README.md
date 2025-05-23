@@ -15,4 +15,4 @@
 ### Level3 제스처를 추가하였으나, 좌우로 스와이프할 시 이전/다음 달 또는 이전/다음 주의 내용이 자연스럽게 보이는 것은 구현하지 못했습니다.
 
 ### level3 시연 영상
-<video src="./Assignment_Image/level3.mp4" width="400" controls />
+<img src="./Assignment_Image/level3.gif" width="400" />
